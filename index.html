@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stone-paper-scissor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <video id="video" src="video-background.mp4" muted loop autoplay></video>
+    <header>
+     <h1 class="heading">Stone Papper Scissor</h1>
+     <h2 class="sub-heading">select any one</h2>
+     <div class="line1"></div>
+     
+     <div class="heading-images">
+      <img src="stone-heading.png" alt="" class="heading-icons" id="rock">
+      <img src="paper-heading.png" alt="" class="heading-icons" id="paper">
+      <img src="scissors-heading.png" alt="" class="heading-icons" id="scissor">
+     </div>
+     <div class="line1"></div>
+
+    </header>
+    <main>
+      
+      <div class="results">
+        <h3 class="results-heading">result</h3>
+        <div class="choices">
+          <h4 id="user">your choice: </h4>
+          <h3 id="user-choice"></h3>
+          <h4 id="computer">computer's choice: </h4>
+          <h3 id="computer-choice"></h3>
+          
+        </div>
+        <h4 id="result"></h4>
+      </div>
+
+      
+    </main>
+    <footer></footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
